@@ -75,6 +75,11 @@ const restartGame = () => {
   hands.style.display = "flex";
   let contest = document.querySelector(".contest");
   contest.style.display = "none";
+  let mobileContest = document.querySelector(".mobile-contest");
+  let mobileResult = document.querySelector(".mobile-result");
+  mobileContest.style.display= "none";
+  mobileResult.style.display = "none";
+  
 }
 
 const setDecision = (decision) => {
